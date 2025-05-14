@@ -47,6 +47,41 @@ const projectsData = [
     tag: ["All", "Web"],
     previewUrl: "https://www.uprinting.com",
   },
+  {
+    id: 7,
+    title: "Smarters IPTV",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web", "Mobile"],
+    previewUrl: "https://apps.microsoft.com/detail/9p0xnf0jhwbv?hl=en-US&gl=US",
+  },
+  {
+    id: 8,
+    title: "MillySat Landing Page",
+    image: "/images/projects/8.png",
+    tag: ["All", "Web"],
+    previewUrl: "https://milly-sat.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Anemo Community",
+    image: "/images/projects/9.png",
+    tag: ["All", "Web"],
+    previewUrl: "https://clean128-story-beta.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Business Card Generator",
+    image: "/images/projects/10.png",
+    tag: ["All", "Web"],
+    previewUrl: "https://business-card-generator-iota.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "Nordastro Landing Page",
+    image: "/images/projects/11.png",
+    tag: ["All", "Web"],
+    previewUrl: "https://nordastro.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
