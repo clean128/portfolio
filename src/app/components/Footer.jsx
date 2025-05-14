@@ -4,7 +4,7 @@ import Image from "next/image";
 import gmailIcon from "../../../public/gmail.svg";
 import discordIcon from "../../../public/discord.svg";
 import telegramIcon from "../../../public/telegram.svg";
-import whatsappIcon from "../../../public/whatsapp.svg";
+import githubIcon from "../../../public/github.svg";
 
 const Footer = () => {
   return (
@@ -18,10 +18,10 @@ const Footer = () => {
           <span className="text-primary-500">Markus Niemela</span>
         </p>
         <div className="flex gap-12">
-          <Link href="mailto:markus.niemela@gmail.com">
-            <Image src={gmailIcon} alt="gmail Icon" className="w-10 h-10" />
+          <Link href="https://github.com/clean128">
+            <Image src={githubIcon} alt="github Icon" className="w-10 h-10" />
           </Link>
-          <Link href="https://t.me/smartdev0809">
+          <Link href="https://t.me/clean1280">
             <Image
               src={telegramIcon}
               alt="telegram Icon"
@@ -30,13 +30,6 @@ const Footer = () => {
           </Link>
           <Link href="https://discord.com/invite/clean128">
             <Image src={discordIcon} alt="discord Icon" className="w-10 h-10" />
-          </Link>
-          <Link href="https://wa.me/19293092050">
-            <Image
-              src={whatsappIcon}
-              alt="whatsapp Icon"
-              className="w-10 h-10"
-            />
           </Link>
         </div>
         <p>All rights reserved.</p>
